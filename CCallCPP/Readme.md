@@ -11,7 +11,7 @@
 
 ##链接
 
-g++ -o main main.c hello/hello.o world/world.o tmp.o
+> g++ -o main main.c hello/hello.o world/world.o tmp.o
 
 ##运行
 > ./main

@@ -1,4 +1,5 @@
 ##编译
+
 //hello.o 用C方式编译C库hello,c代码中期望使用C++库world类中的静态方法,又不希望参杂任何C++代码
 > gcc -c hello.c
 
@@ -9,7 +10,8 @@
 > g++ -c tmp.cpp
 
 ##链接
+
 g++ -o main main.c hello/hello.o world/world.o tmp.o
 
-//运行
+##运行
 > ./main
